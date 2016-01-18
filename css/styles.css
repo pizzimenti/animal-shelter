@@ -1,0 +1,78 @@
+/** {
+
+   border: 1px solid blue;
+   box-sizing: border-box;
+}
+//what does this do other than draw boxes around all elements?
+ */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wrap {
+  margin: auto;
+  width: 90%
+}
+
+h1 {
+  font-family: cursive;
+}
+
+.sidebar {
+  float:left;
+}
+
+.imagebar {
+  border: dashed pink;
+  float: left;
+}
+
+.menubar {
+  border-bottom: solid blue;
+  border-top: solid blue;
+  border-left: solid black;
+  border-right: solid black;
+  margin-bottom: 10px;
+}
+
+.column1 {
+  font-family: monospace;;
+  width: 40.425531914894%;
+  float: left;
+  padding: 20px;
+
+}
+
+.column2 {
+  font-family: monospace;;
+  width: 23.404255319149%;
+  float: left;
+  padding: 20px;
+
+}
+
+
+#page-top h1 {
+  font-family: monospace;
+}
+
+#page-top {
+  font-family: cursive;
+  text-align: center;
+}
+
+@media screen and (max-width:480px) {
+  .sidebar {
+    background-color: yellow
+  }
+  .menubar {
+    font-size: 1em%;
+  }
+  li {
+    border: 1px solid green;
+    list-style-type: none;
+    text-align: center;
+  }
+}
